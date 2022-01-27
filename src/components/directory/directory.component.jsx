@@ -14,6 +14,7 @@ class Directory extends React.Component {
           //Photo by Vitaly Vlasov from Pexels
           imageUrl:
             "https://images.pexels.com/photos/1546333/pexels-photo-1546333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          linkUrl: "watches",
         },
         {
           id: 2,
@@ -21,6 +22,7 @@ class Directory extends React.Component {
           //Photo by Vitaly Vlasov from Pexels
           imageUrl:
             "https://images.pexels.com/photos/1546003/pexels-photo-1546003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          linkUrl: "",
         },
         {
           id: 3,
@@ -28,6 +30,7 @@ class Directory extends React.Component {
           //Photo by Joshua T from Pexels
           imageUrl:
             "https://images.pexels.com/photos/954254/pexels-photo-954254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          linkUrl: "",
         },
         {
           id: 4,
@@ -36,6 +39,7 @@ class Directory extends React.Component {
           imageUrl:
             "https://images.pexels.com/photos/2229490/pexels-photo-2229490.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
           size: "large",
+          linkUrl: "",
         },
         {
           id: 5,
@@ -44,6 +48,7 @@ class Directory extends React.Component {
           imageUrl:
             "https://images.pexels.com/photos/1337477/pexels-photo-1337477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           size: "large",
+          linkUrl: "",
         },
       ],
     };
@@ -52,8 +57,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.sections.map(({ id, title, imageUrl, size }) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
     );
