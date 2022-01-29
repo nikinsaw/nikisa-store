@@ -1,63 +1,72 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Caps',
+    routeName: 'caps',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Blue Denim Palm Cap',
+        price: 25,
+        imageUrl: 'https://images.unsplash.com/photo-1534215754734-18e55d13e346?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1304&q=80',
+        // Image By Ahmed Syed from unsplash
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Green Cafe Y Fotos Cap',
+        imageUrl: 'https://images.unsplash.com/photo-1519079754742-f83afaef6d35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        price: 25
+        //Image By Blake Wisz from unsplash
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Plain White Cap',
+        price: 18,
+        imageUrl: 'https://images.unsplash.com/photo-1622445275576-721325763afe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+        //Image By Mediamodifier from unsplash
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Slate Grey Topa Cap',
+        price: 35,
+        imageUrl: 'https://images.unsplash.com/photo-1525740615880-50bb88fe0b1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+        //Image By Jenn Lopez from unsplash
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Pink Aloha Cap',
+        price: 18,
+        imageUrl: 'https://images.unsplash.com/photo-1583323995751-26b4fe2abc20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
+        //Image By Verstappen Photography from unsplash
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Blue Wolf Cap',
+        price: 14,
+        imageUrl: 'https://images.unsplash.com/photo-1543352245-63e64ac19e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        //Image By Amber Kipp from unsplash
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Beige Ice-Cream Cap',
+        price: 18,
+        imageUrl: 'https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80g',
+        // Image By Joe Ciciarelli from unsplash
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'White MTL JTM Cap',
+        price: 14,
+        imageUrl: 'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+        //Image By Dave Goudreau from unsplash
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
-      }
+        name: 'Grey Quebec Cap',
+        price: 14,
+        imageUrl: 'https://images.unsplash.com/photo-1588516903922-b694c2153623?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+        //Image By Marie-Michèle Bouchard from unsplash
+      },
     ]
   },
   {
