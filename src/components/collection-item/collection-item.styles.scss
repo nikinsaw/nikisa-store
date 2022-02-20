@@ -4,6 +4,24 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right top, #00bc80, #00dc63);
+  padding: 2px;
+  padding-bottom: 8px;
+  overflow: hidden;
+
+  &:hover {
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    border-image-source: linear-gradient(to right top, #dd54a6, #ff69b4);
+
+    & .image {
+      opacity: 0.9;
+    }
+  }
+  // #dd54a6,
+  // #ff69b4
 
   .image {
     width: 100%;
